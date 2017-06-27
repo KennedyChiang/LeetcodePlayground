@@ -22,9 +22,6 @@ class MyTests : XCTestCase {
     func test1() {
         XCTAssertEqual(Solution().twoSum([2,3,4,5,6,7,8], 6), [0,2])
     }
-    
-    func test2() {
-    }
 }
 
 TestRunner().runTests(testClass: MyTests.self)
