@@ -9,7 +9,6 @@ class Solution {
             numString = numString.replacingOccurrences(of: "-", with: "")
             numString = "-" + numString
         }
-print(Int32.max)
         
         guard (Int32(numString) != nil) else {
             return 0
